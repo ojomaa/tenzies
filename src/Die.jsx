@@ -3,6 +3,8 @@ import React from "react"
 
 export default function Die() {
     return(
-        <h1> This is the Die Function </h1>
+        <div className='die'>
+            <h1> This is the Die Function </h1>
+        </div>
     )
 }
