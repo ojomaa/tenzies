@@ -4,8 +4,39 @@ import Die from "./Die"
 
 export default function App() {
   return (
-    <>
-      <Die />
-    </>
+    <main>
+      <div className='dice-container'>
+        <Die 
+          value = {1}
+        />
+        <Die 
+          value = {1}
+        />
+        <Die 
+          value = {1}
+        />
+        <Die 
+          value = {1}
+        />
+        <Die 
+          value = {1}
+        />
+        <Die 
+          value = {1}
+        />
+        <Die 
+          value = {1}
+        />
+        <Die 
+          value = {1}
+        />
+        <Die 
+          value = {1}
+        />
+        <Die 
+          value = {1}
+        />
+      </div>
+    </main>
   )
 }
