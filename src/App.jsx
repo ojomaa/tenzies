@@ -14,6 +14,10 @@ export default function App() {
     return Array.from({ length: 10 }, () => Math.ceil(Math.random() * 6))
   }
 
+  function rollDice() {
+    setDiceNum(allNewDice())
+  }
+
   const diceNumbers = diceNum.map((num, index) => (
         <Die key={index} value={num} />
     ))
@@ -23,6 +27,7 @@ export default function App() {
       <div className='dice-container'>
         {diceNumbers}
       </div>
+      <button className="roll-button" onClick= {rollDice}> Roll </button>
     </main>
   )
 }
