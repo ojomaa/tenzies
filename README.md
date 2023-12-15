@@ -6,4 +6,5 @@ React-based game of tenzies that allows a user to roll dice and hold them in pla
 ## Visual
 
 **Gameplay of Tenzies**
-<img src='./tenzies.gif'>
+
+<img src='./tenzies.gif' width= 300px>
