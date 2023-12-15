@@ -22,10 +22,12 @@ main {
 .title {
   font-size: 40px;
   margin: 0;
+  font-family: 'Karla' ;
 }
 
 .instructions {
   font-family: 'Inter', sans-serif;
+  color: rgb(92, 92, 92);
   font-weight: 400;
   margin-top: 0;
   text-align: center;
